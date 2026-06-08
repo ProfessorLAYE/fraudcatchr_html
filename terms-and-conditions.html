@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Service — Fraudcatchr</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy: #0B1628;
+      --blue: #1E50E2;
+      --text: #1a1a2e;
+      --muted: #6B7280;
+      --border: #E5E7EB;
+      --bg: #F9FAFB;
+    }
+
+    body {
+      font-family: 'Figtree', sans-serif;
+      color: var(--text);
+      background: #fff;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    header {
+      background: var(--navy);
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 20px;
+      letter-spacing: -0.3px;
+    }
+
+    header nav a {
+      color: rgba(255,255,255,0.7);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      margin-left: 24px;
+      transition: color 0.2s;
+    }
+
+    header nav a:hover { color: #fff; }
+    header nav a.active { color: #fff; }
+
+    .hero {
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      font-weight: 700;
+      color: var(--navy);
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+    }
+
+    .hero p {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+
+    .toc {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-bottom: 48px;
+    }
+
+    .toc h3 {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+
+    .toc ol {
+      padding-left: 20px;
+    }
+
+    .toc ol li {
+      margin-bottom: 6px;
+    }
+
+    .toc ol li a {
+      color: var(--blue);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .toc ol li a:hover { text-decoration: underline; }
+
+    section {
+      margin-bottom: 48px;
+      scroll-margin-top: 24px;
+    }
+
+    section h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--border);
+    }
+
+    section p {
+      margin-bottom: 14px;
+      color: #374151;
+    }
+
+    section ul, section ol {
+      padding-left: 22px;
+      margin-bottom: 14px;
+    }
+
+    section ul li, section ol li {
+      margin-bottom: 8px;
+      color: #374151;
+    }
+
+    .highlight-box {
+      background: #EFF6FF;
+      border-left: 4px solid var(--blue);
+      border-radius: 0 8px 8px 0;
+      padding: 16px 20px;
+      margin-bottom: 20px;
+    }
+
+    .highlight-box p {
+      margin: 0;
+      color: #1E40AF;
+      font-weight: 500;
+      font-size: 15px;
+    }
+
+    .warning-box {
+      background: #FEF2F2;
+      border-left: 4px solid #DC2626;
+      border-radius: 0 8px 8px 0;
+      padding: 16px 20px;
+      margin-bottom: 20px;
+    }
+
+    .warning-box p {
+      margin: 0;
+      color: #991B1B;
+      font-weight: 500;
+      font-size: 15px;
+    }
+
+    .contact-box {
+      background: var(--navy);
+      border-radius: 12px;
+      padding: 32px;
+      color: #fff;
+      margin-top: 48px;
+    }
+
+    .contact-box h3 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .contact-box p {
+      color: rgba(255,255,255,0.75);
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+
+    .contact-box a {
+      color: #93C5FD;
+      text-decoration: none;
+    }
+
+    footer {
+      background: var(--bg);
+      border-top: 1px solid var(--border);
+      padding: 24px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    footer a {
+      color: var(--blue);
+      text-decoration: none;
+      margin: 0 12px;
+    }
+
+    strong { color: var(--navy); }
+
+    @media (max-width: 600px) {
+      .hero h1 { font-size: 28px; }
+      .container { padding: 40px 16px 60px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="/">Fraudcatchr</a>
+  <nav>
+    <a href="/privacy-policy.html">Privacy Policy</a>
+    <a href="/terms-and-conditions.html" class="active">Terms of Service</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Terms of Service</h1>
+  <p>Last updated: June 8, 2026 &nbsp;·&nbsp; Effective date: June 8, 2026</p>
+</div>
+
+<div class="container">
+
+  <div class="highlight-box">
+    <p>Please read these Terms carefully before using Fraudcatchr. By creating an account or using our Service, you agree to be bound by these Terms.</p>
+  </div>
+
+  <div class="toc">
+    <h3>Table of Contents</h3>
+    <ol>
+      <li><a href="#acceptance">Acceptance of Terms</a></li>
+      <li><a href="#description">Description of Service</a></li>
+      <li><a href="#eligibility">Eligibility</a></li>
+      <li><a href="#accounts">Accounts and Registration</a></li>
+      <li><a href="#subscription">Subscription and Billing</a></li>
+      <li><a href="#advisor-responsibilities">Advisor Responsibilities</a></li>
+      <li><a href="#client-consent">Client Consent and Authorization</a></li>
+      <li><a href="#acceptable-use">Acceptable Use</a></li>
+      <li><a href="#ai-disclaimer">AI and Fraud Detection Disclaimer</a></li>
+      <li><a href="#intellectual-property">Intellectual Property</a></li>
+      <li><a href="#privacy">Privacy</a></li>
+      <li><a href="#disclaimers">Disclaimers of Warranties</a></li>
+      <li><a href="#limitation">Limitation of Liability</a></li>
+      <li><a href="#indemnification">Indemnification</a></li>
+      <li><a href="#termination">Termination</a></li>
+      <li><a href="#governing-law">Governing Law and Disputes</a></li>
+      <li><a href="#changes">Changes to These Terms</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ol>
+  </div>
+
+  <section id="acceptance">
+    <h2>1. Acceptance of Terms</h2>
+    <p>These Terms of Service ("Terms") constitute a legally binding agreement between you and Fraudcatchr LLC, a Wyoming limited liability company ("Fraudcatchr," "we," "us," or "our"), governing your access to and use of the Fraudcatchr platform, including all websites, mobile applications, browser extensions, and APIs (collectively, the "Service").</p>
+    <p>By accessing or using the Service, creating an account, or clicking "I agree," you acknowledge that you have read, understood, and agree to be bound by these Terms and our <a href="/privacy-policy.html">Privacy Policy</a>. If you do not agree, do not use the Service.</p>
+  </section>
+
+  <section id="description">
+    <h2>2. Description of Service</h2>
+    <p>Fraudcatchr is an AI-powered fraud protection platform designed to help protect seniors from telephone scams, email phishing, and malicious websites. The Service operates through three primary protection modules:</p>
+    <ul>
+      <li><strong>Call Guard:</strong> Monitors inbound phone calls in real time, transcribes calls, and analyzes content using AI to detect fraud patterns</li>
+      <li><strong>Email Shield:</strong> Monitors incoming email messages for phishing, scam, and fraud indicators</li>
+      <li><strong>Browser Shield:</strong> Monitors website URLs visited through the Fraudcatchr browser extension for malicious or fraudulent sites</li>
+    </ul>
+    <p>The Service is designed for use by <strong>Advisors</strong> (family members, caregivers, or authorized representatives of seniors) to monitor and protect <strong>Clients</strong> (the seniors being protected).</p>
+  </section>
+
+  <section id="eligibility">
+    <h2>3. Eligibility</h2>
+    <p>To use the Service as an Advisor, you must:</p>
+    <ul>
+      <li>Be at least 18 years of age</li>
+      <li>Be a legal resident of the United States</li>
+      <li>Have the legal authority to consent to monitoring on behalf of the Client, or have obtained the Client's informed consent</li>
+      <li>Provide accurate and complete registration information</li>
+      <li>Maintain a valid payment method for subscription fees</li>
+    </ul>
+    <p>The Service is intended for use within the United States. We make no representation that the Service is appropriate or available outside the United States.</p>
+  </section>
+
+  <section id="accounts">
+    <h2>4. Accounts and Registration</h2>
+    <p>To access the Service, Advisors must create an account using a valid email address. You are responsible for:</p>
+    <ul>
+      <li>Maintaining the confidentiality of your account credentials</li>
+      <li>All activity that occurs under your account</li>
+      <li>Notifying us immediately of any unauthorized use of your account at <a href="mailto:team@fraudcatchr.com">team@fraudcatchr.com</a></li>
+    </ul>
+    <p>You may not create an account for someone else without their knowledge or share your account credentials with others. Each Advisor account is personal and non-transferable.</p>
+  </section>
+
+  <section id="subscription">
+    <h2>5. Subscription and Billing</h2>
+    <p><strong>Subscription Fee:</strong> Access to the Service requires a paid subscription at a rate of <strong>$25.00 per month per Client</strong>, billed on a recurring monthly basis.</p>
+    <p><strong>Billing:</strong> Subscriptions are billed through Stripe. By subscribing, you authorize Fraudcatchr to charge your payment method on a recurring monthly basis until you cancel.</p>
+    <p><strong>Free Trial:</strong> If a free trial is offered, it will be clearly stated at the time of signup. At the end of the trial period, your subscription will automatically convert to a paid subscription unless cancelled.</p>
+    <p><strong>Cancellation:</strong> You may cancel your subscription at any time through your account settings at app.fraudcatchr.com. Cancellation takes effect at the end of the current billing period. You will retain access to the Service until the end of the paid period.</p>
+    <p><strong>Refunds:</strong> Subscription fees are non-refundable except where required by applicable law. We do not provide prorated refunds for partial months.</p>
+    <p><strong>Price Changes:</strong> We reserve the right to change subscription pricing with at least 30 days' notice to your registered email address. Continued use of the Service after a price change constitutes acceptance of the new price.</p>
+    <p><strong>Taxes:</strong> Prices do not include applicable taxes. You are responsible for all applicable taxes associated with your subscription.</p>
+  </section>
+
+  <section id="advisor-responsibilities">
+    <h2>6. Advisor Responsibilities</h2>
+    <p>As an Advisor, you represent and warrant that:</p>
+    <ul>
+      <li>You have obtained all necessary consents from the Client to monitor their phone calls, email, and browsing activity as described in these Terms and our Privacy Policy</li>
+      <li>You have informed the Client that their communications will be monitored, transcribed, and analyzed by AI</li>
+      <li>You will use the Service solely for the legitimate purpose of protecting the Client from fraud</li>
+      <li>You will not use the Service to surveil, control, or harm the Client in any way</li>
+      <li>You will comply with all applicable federal, state, and local laws governing electronic surveillance, call recording, and data privacy</li>
+      <li>All information you provide during registration and use of the Service is accurate and complete</li>
+    </ul>
+    <p>You acknowledge that monitoring another person's communications without their knowledge or consent may violate federal and state laws, including the Electronic Communications Privacy Act (ECPA) and applicable state wiretapping statutes. Fraudcatchr is not responsible for your compliance with such laws.</p>
+  </section>
+
+  <section id="client-consent">
+    <h2>7. Client Consent and Authorization</h2>
+    <div class="warning-box">
+      <p>Call monitoring without proper consent may violate federal and state law. It is your responsibility to ensure proper consent is obtained.</p>
+    </div>
+    <p>The Service involves monitoring of a Client's personal communications, including phone calls, emails, and web browsing. Before activating monitoring for any Client, the Advisor must ensure that:</p>
+    <ul>
+      <li>The Client has been clearly informed that their incoming phone calls will be monitored, transcribed, and analyzed</li>
+      <li>The Client has been clearly informed that their incoming emails will be scanned and analyzed</li>
+      <li>The Client has been clearly informed that their web browsing activity will be monitored</li>
+      <li>The Client has provided explicit, informed consent to all monitoring activities</li>
+      <li>Where applicable, the Client's legal guardian or authorized representative has provided consent</li>
+    </ul>
+    <p>Fraudcatchr provides a Client onboarding process designed to facilitate informed consent. Completion of the onboarding process by the Client constitutes the Client's direct consent to monitoring under these Terms.</p>
+  </section>
+
+  <section id="acceptable-use">
+    <h2>8. Acceptable Use</h2>
+    <p>You agree not to use the Service to:</p>
+    <ul>
+      <li>Monitor any individual without their knowledge and consent</li>
+      <li>Engage in stalking, harassment, or abuse of any individual</li>
+      <li>Violate any federal, state, or local law or regulation</li>
+      <li>Circumvent, disable, or interfere with security features of the Service</li>
+      <li>Reverse engineer, decompile, or disassemble any portion of the Service</li>
+      <li>Scrape, crawl, or use automated means to access or extract data from the Service</li>
+      <li>Resell, sublicense, or commercially exploit the Service</li>
+      <li>Transmit viruses, malware, or any code designed to disrupt or damage systems</li>
+      <li>Impersonate any person or entity or misrepresent your affiliation with any person</li>
+    </ul>
+    <p>Fraudcatchr reserves the right to suspend or terminate your account immediately for any violation of these acceptable use provisions.</p>
+  </section>
+
+  <section id="ai-disclaimer">
+    <h2>9. AI and Fraud Detection Disclaimer</h2>
+    <div class="highlight-box">
+      <p>Fraudcatchr uses AI to detect fraud. AI is not perfect. Do not rely solely on Fraudcatchr for protection.</p>
+    </div>
+    <p>The Service uses artificial intelligence, including Google's Gemini AI models, to analyze communications and assign fraud risk scores. You acknowledge and agree that:</p>
+    <ul>
+      <li><strong>AI is not infallible.</strong> The Service may produce false positives (flagging legitimate communications as fraudulent) or false negatives (failing to detect actual fraud)</li>
+      <li><strong>Not a guarantee.</strong> Fraudcatchr does not guarantee that all fraud attempts will be detected or that the Client will be protected from all fraud</li>
+      <li><strong>Human judgment required.</strong> Fraud risk scores and AI analysis are tools to assist Advisors, not substitutes for human judgment</li>
+      <li><strong>No liability for missed fraud.</strong> Fraudcatchr is not liable for any financial loss, harm, or damage resulting from fraud that was not detected by the Service</li>
+      <li><strong>Supplemental protection only.</strong> The Service should be used as one layer of protection among many, not as a sole safeguard</li>
+    </ul>
+  </section>
+
+  <section id="intellectual-property">
+    <h2>10. Intellectual Property</h2>
+    <p>The Service, including all software, algorithms, designs, text, graphics, and other content, is owned by Fraudcatchr LLC and protected by United States and international intellectual property laws.</p>
+    <p>We grant you a limited, non-exclusive, non-transferable, revocable license to use the Service for personal, non-commercial purposes in accordance with these Terms. This license does not include the right to copy, modify, distribute, sell, or create derivative works from any part of the Service.</p>
+    <p>You retain ownership of any data you submit to the Service. By using the Service, you grant Fraudcatchr a limited license to process your data as necessary to provide the Service, including using anonymized and aggregated data to improve our AI models.</p>
+  </section>
+
+  <section id="privacy">
+    <h2>11. Privacy</h2>
+    <p>Your use of the Service is governed by our <a href="/privacy-policy.html">Privacy Policy</a>, which is incorporated into these Terms by reference. By using the Service, you consent to the collection and use of your information as described in the Privacy Policy.</p>
+  </section>
+
+  <section id="disclaimers">
+    <h2>12. Disclaimers of Warranties</h2>
+    <p><strong>THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.</strong></p>
+    <p>Fraudcatchr does not warrant that:</p>
+    <ul>
+      <li>The Service will be uninterrupted, error-free, or secure</li>
+      <li>Any fraud attempt will be detected or prevented</li>
+      <li>The AI analysis will be accurate or complete in every instance</li>
+      <li>The Service will meet your specific requirements or expectations</li>
+    </ul>
+    <p>Some jurisdictions do not allow the exclusion of implied warranties. In such jurisdictions, the above exclusions apply to the fullest extent permitted by law.</p>
+  </section>
+
+  <section id="limitation">
+    <h2>13. Limitation of Liability</h2>
+    <p><strong>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, FRAUDCATCHR LLC, ITS MEMBERS, OFFICERS, EMPLOYEES, AGENTS, AND SERVICE PROVIDERS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES, INCLUDING BUT NOT LIMITED TO DAMAGES FOR LOSS OF PROFITS, REVENUE, DATA, GOODWILL, OR OTHER INTANGIBLE LOSSES, ARISING OUT OF OR RELATED TO YOUR USE OF OR INABILITY TO USE THE SERVICE.</strong></p>
+    <p><strong>IN NO EVENT SHALL FRAUDCATCHR'S TOTAL CUMULATIVE LIABILITY TO YOU FOR ALL CLAIMS ARISING OUT OF OR RELATED TO THESE TERMS OR THE SERVICE EXCEED THE GREATER OF (A) THE TOTAL AMOUNT YOU PAID TO FRAUDCATCHR IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM, OR (B) ONE HUNDRED DOLLARS ($100.00).</strong></p>
+    <p>Some jurisdictions do not allow the limitation of liability for consequential damages. In such jurisdictions, the above limitation applies to the fullest extent permitted by law.</p>
+  </section>
+
+  <section id="indemnification">
+    <h2>14. Indemnification</h2>
+    <p>You agree to indemnify, defend, and hold harmless Fraudcatchr LLC and its members, officers, employees, and agents from and against any claims, liabilities, damages, losses, costs, and expenses (including reasonable attorneys' fees) arising out of or related to:</p>
+    <ul>
+      <li>Your use of the Service</li>
+      <li>Your violation of these Terms</li>
+      <li>Your violation of any applicable law, including wiretapping, surveillance, or privacy laws</li>
+      <li>Your failure to obtain proper consent from a Client before activating monitoring</li>
+      <li>Any claim by a third party arising from your use of the Service</li>
+    </ul>
+  </section>
+
+  <section id="termination">
+    <h2>15. Termination</h2>
+    <p><strong>By You:</strong> You may terminate your account at any time by cancelling your subscription and contacting us at team@fraudcatchr.com.</p>
+    <p><strong>By Fraudcatchr:</strong> We reserve the right to suspend or terminate your account immediately, without notice or liability, for any of the following reasons:</p>
+    <ul>
+      <li>Violation of these Terms or our acceptable use policy</li>
+      <li>Non-payment of subscription fees</li>
+      <li>Fraudulent, abusive, or illegal activity</li>
+      <li>Any conduct that we reasonably determine to be harmful to other users, third parties, or Fraudcatchr</li>
+    </ul>
+    <p>Upon termination, your right to use the Service will immediately cease. Provisions of these Terms that by their nature should survive termination will survive, including Sections 9, 12, 13, 14, and 16.</p>
+  </section>
+
+  <section id="governing-law">
+    <h2>16. Governing Law and Disputes</h2>
+    <p>These Terms are governed by and construed in accordance with the laws of the State of Wyoming, without regard to its conflict of law provisions.</p>
+    <p><strong>Informal Resolution:</strong> Before initiating any legal proceeding, you agree to contact us at team@fraudcatchr.com to attempt to resolve the dispute informally. We will make good faith efforts to resolve the issue within 30 days.</p>
+    <p><strong>Binding Arbitration:</strong> If informal resolution fails, any dispute arising out of or relating to these Terms or the Service shall be resolved by binding arbitration administered by the American Arbitration Association (AAA) under its Consumer Arbitration Rules, rather than in court. The arbitration shall take place in Wyoming. You waive any right to a jury trial or to participate in a class action.</p>
+    <p><strong>Exception:</strong> Either party may seek injunctive or other equitable relief in a court of competent jurisdiction to prevent the actual or threatened infringement of intellectual property rights.</p>
+    <p><strong>Class Action Waiver:</strong> You agree that any arbitration or proceeding shall be limited to the dispute between you and Fraudcatchr individually. You waive any right to bring or participate in any class action, class arbitration, or representative proceeding.</p>
+  </section>
+
+  <section id="changes">
+    <h2>17. Changes to These Terms</h2>
+    <p>We reserve the right to modify these Terms at any time. When we make material changes, we will notify you by email and update the "Last updated" date at the top of this page. Your continued use of the Service after changes become effective constitutes your acceptance of the revised Terms. If you do not agree to the revised Terms, you must stop using the Service and cancel your subscription.</p>
+  </section>
+
+  <div class="contact-box" id="contact">
+    <h3>18. Contact Us</h3>
+    <p>If you have questions about these Terms, please contact us:</p>
+    <p><strong style="color:#fff;">Fraudcatchr LLC</strong></p>
+    <p>Email: <a href="mailto:team@fraudcatchr.com">team@fraudcatchr.com</a></p>
+    <p>Legal: <a href="mailto:legal@fraudcatchr.com">legal@fraudcatchr.com</a></p>
+    <p style="margin-top:16px;font-size:13px;color:rgba(255,255,255,0.5);">Fraudcatchr LLC is incorporated in Wyoming, United States.</p>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Fraudcatchr LLC. All rights reserved.</p>
+  <p style="margin-top:8px;">
+    <a href="/privacy-policy.html">Privacy Policy</a>
+    <a href="/terms-and-conditions.html">Terms of Service</a>
+    <a href="mailto:team@fraudcatchr.com">Contact</a>
+  </p>
+</footer>
+
+</body>
+</html>
